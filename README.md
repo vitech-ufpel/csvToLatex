@@ -20,5 +20,5 @@ Sinta-se à vontade para contribuir com o projeto. Caso encontre formas de otimi
 
 ## Contato
 
-Para mais informações ou dúvidas, entre em contato conosco através de [inserir meio de contato].
+Para mais informações ou dúvidas, entre em contato conosco através de rsferreira@inf.ufpel.edu.br.
 
