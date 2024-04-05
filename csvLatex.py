@@ -52,70 +52,7 @@ def csv_to_latex(csv_file_path, latex_file_path):
         latex_document = file.read()
         file.close()    
 
-    latex_document =  latex_document.replace('AppS_1','$AppS_{1}$')
-    latex_document =  latex_document.replace('AppS_2','$AppS_{2}$')
-    latex_document =  latex_document.replace('AppS_3','$AppS_{3}$')
-    latex_document =  latex_document.replace('AppS_4','$AppS_{4}$')
-
-
-    latex_document =  latex_document.replace('AppS1','$AppS_{1}$')
-    latex_document =  latex_document.replace('AppS2','$AppS_{2}$')
-    latex_document =  latex_document.replace('AppS3','$AppS_{3}$')
-    latex_document =  latex_document.replace('AppS4','$AppS_{4}$')
-
-
-    latex_document =  latex_document.replace('AppS 1','$AppS_{1}$')
-    latex_document =  latex_document.replace('AppS 2','$AppS_{2}$')
-    latex_document =  latex_document.replace('AppS 3','$AppS_{3}$')
-    latex_document =  latex_document.replace('AppS 4','$AppS_{4}$')
-
-
-    latex_document =  latex_document.replace('AXCS11','$AXCS1_{1}$')
-    latex_document =  latex_document.replace('AXCS12','$AXCS1_{2}$')
-    latex_document =  latex_document.replace('AXCS13','$AXCS1_{3}$')
-    latex_document =  latex_document.replace('AXCS14','$AXCS1_{4}$')
-
-    latex_document =  latex_document.replace('AXCS21','$AXCS1_{1}$')
-    latex_document =  latex_document.replace('AXCS22','$AXCS1_{2}$')
-    latex_document =  latex_document.replace('AXCS23','$AXCS1_{3}$')
-    latex_document =  latex_document.replace('AXCS24','$AXCS1_{4}$')
-
-    latex_document =  latex_document.replace('AXCS31','$AXCS1_{1}$')
-    latex_document =  latex_document.replace('AXCS32','$AXCS1_{2}$')
-    latex_document =  latex_document.replace('AXCS33','$AXCS1_{3}$')
-    latex_document =  latex_document.replace('AXCS34','$AXCS1_{4}$')
-
-
-    latex_document =  latex_document.replace('AXCS41','$AXCS1_{1}$')
-    latex_document =  latex_document.replace('AXCS42','$AXCS1_{2}$')
-    latex_document =  latex_document.replace('AXCS43','$AXCS1_{3}$')
-    latex_document =  latex_document.replace('AXCS44','$AXCS1_{4}$')
-
-
-
-
-
-
-    latex_document =  latex_document.replace('AXCS1_1','$AXCS1_{1}$')
-    latex_document =  latex_document.replace('AXCS1_2','$AXCS1_{2}$')
-    latex_document =  latex_document.replace('AXCS1_3','$AXCS1_{3}$')
-    latex_document =  latex_document.replace('AXCS1_4','$AXCS1_{4}$')
-
-
-    latex_document =  latex_document.replace('AXCS2_1','$AXCS2_{1}$')
-    latex_document =  latex_document.replace('AXCS2_2','$AXCS2_{2}$')
-    latex_document =  latex_document.replace('AXCS2_3','$AXCS2_{3}$')
-    latex_document =  latex_document.replace('AXCS2_4','$AXCS2_{4}$')
-
-    latex_document =  latex_document.replace('AXCS3_1','$AXCS3_{1}$')
-    latex_document =  latex_document.replace('AXCS3_2','$AXCS3_{2}$')
-    latex_document =  latex_document.replace('AXCS3_3','$AXCS3_{3}$')
-    latex_document =  latex_document.replace('AXCS3_4','$AXCS3_{4}$')
-
-    latex_document =  latex_document.replace('AXCS4_1','$AXCS4_{1}$')
-    latex_document =  latex_document.replace('AXCS4_2','$AXCS4_{2}$')
-    latex_document =  latex_document.replace('AXCS4_3','$AXCS4_{3}$')
-    latex_document =  latex_document.replace('AXCS4_4','$AXCS4_{4}$')
+    
     latex_document =  latex_document.replace('%','\%')
     with open(latex_file_path, 'w') as file:
         file.write(latex_document)    
